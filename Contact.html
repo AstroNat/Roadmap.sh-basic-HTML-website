@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" description="width=device-width", initial-scale= 1.0>
-        <meta name="author" description="Nathan Asres">
-        <meta name="description" description="">
-        <meta name="keyword" description="">
+        <meta name="viewport" content="width=device-width", initial-scale= 1.0>
+        <meta name="author" content="Nathan Asres">
+        <meta name="description" content="">
+        <meta name="keyword" content="">
     </head>
-    <body>
+    <body style="font-family: sans-serif; padding: 20px;">
         <nav align="right">
             <a href="index.html">Home /</a>
            <a href="project.html">Project /</a>
            <a href="Article.html">Article /</a>
            <a href="Contact.html">Contact /</a>
         </nav>
-        <form>
-
+        <form style="width: 350px; margin: 40px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+            <div id="name-section">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Nathan Asres">
+            </div>
+        <br>
+            <div id="email-section">
+                <label for="em">Email:</label>
+                <input type="email" id="em" placeholder="example@email.com">
+            </div>
+            <div>
+        <br>
+                <label for="message">Message:</label>
+                <input type="text" id="Message" placeholder="leave a message" style="padding: 30px;">
+            </div>
+         <input type="submit">
         </form>
         <footer>
-            <p align="middle"><small>©all right reserved 2025</small></p>
+            <p align="middle"><small>© All right reserved 2025</small></p>
         </footer>
     </body>
 </html>
